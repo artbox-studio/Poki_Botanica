@@ -1,52 +1,34 @@
 {
-  "poki_template_version": 1,
-  "extra_html": {
-    "head": [
-      "<style>",
-      "#orientation-warning {",
-      "  display: none;",
-      "  position: fixed;",
-      "  top: 0; left: 0;",
-      "  width: 100%; height: 100%;",
-      "  background: #231F20;",
-      "  color: white;",
-      "  text-align: center;",
-      "  padding-top: 30%;",
-      "  z-index: 9999;",
-      "}",
-      "@media (orientation: portrait) {",
-      "  #orientation-warning { display: block; }",
-      "  .poki-game-iframe { display: none; }",
-      "}",
-      "</style>"
-    ],
-    "body": [
-      "<div id='orientation-warning'>",
-      "  <h2>Пожалуйста, поверните устройство</h2>",
-      "  <p>Игра работает только в горизонтальном режиме</p>",
-      "</div>"
-    ]
-  },
-  "background_color": "#231F20",
-  "background_filename": "",
-  "code_filename": "b55c25aff2e62b6f97559609c0305ba6.wasm",
-  "company_name": "UFOEVE",
-  "data_filename": "5008fe1fe142a71efbf5645102112c97.data",
-  "decompression_fallback": "Disabled",
-  "development_player": "false",
-  "framework_filename": "e237db93bd1f1a08e7214302eea635c9.js",
-  "height": "1080",
-  "loader_filename": "WebGL_poki.loader.js",
-  "memory_filename": "",
-  "product_name": "Botanica",
-  "product_version": "1.0",
-  "splash_screen_style": "Dark",
-  "symbols_filename": "",
-  "unity_version": "2022.3.20f1",
-  "use_data_caching": "true",
-  "use_threads": "false",
-  "use_wasm": "true",
-  "use_webgl_1_0": "false",
-  "use_webgl_2_0": "true",
-  "width": "1920"
-}
+	"poki_template_version": 1,
+	"extra_html": {
+	  "head": [
+		"<!-- will be copied to the resulting head //-->"
+	  ],
+	  "body": [
+		"<!-- will be copied to the resulting body //-->",
+		"<!-- will also be copied to the resulting body //-->"
+	  ]
+	},
+	"background_color": "#231F20",
+	"background_filename": "",
+	"code_filename": "aef24c58814321e46ad6e589faee24ea.wasm",
+	"company_name": "UFOEVE",
+	"data_filename": "56356395c9d179349c5ff04b0adadf9f.data",
+	"decompression_fallback": "Disabled",
+	"development_player": "false",
+	"framework_filename": "0f442f18ccbfa8fe4568045e29601be7.js",
+	"height": "1080",
+	"loader_filename": "Poki_Botanica.loader.js",
+	"memory_filename": "",
+	"product_name": "Botanica",
+	"product_version": "1.0",
+	"splash_screen_style": "Dark",
+	"symbols_filename": "",
+	"unity_version": "2022.3.20f1",
+	"use_data_caching": "true",
+	"use_threads": "false",
+	"use_wasm": "true",
+	"use_webgl_1_0": "false",
+	"use_webgl_2_0": "true",
+	"width": "1920"
+  }
